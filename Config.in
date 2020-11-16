@@ -1,0 +1,2 @@
+#source "$BR2_EXTERNAL_BEAGLE_BUILD_PATH/package/package2/Config.in"
+

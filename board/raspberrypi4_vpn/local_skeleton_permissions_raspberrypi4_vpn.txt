@@ -1,0 +1,28 @@
+# See package/makedevs/README for details
+#
+# <name>				<type>	<mode>	<uid>	<gid>	<major>	<minor>	<start>	<inc>	<count>
+/usr/bin/acme.sh			f	755	0	0	-	-	-	-	-
+#/usr/bin/deploy/docker.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/deploy/kong.sh			f	755	0	0	-	-	-	-	-
+#/usr/bin/deploy/myapi.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/deploy/mydevil.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_1984hosting.sh	f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_active24.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_ad.sh			755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_ali.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_aws.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_cf.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_clouddns.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_cloudns.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_conoha.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_cx.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_da.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_dgon.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_doapi.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_do.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_dpi.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_dp.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_duckdns.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_exoscale.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_freedns.sh		f	755	0	0	-	-	-	-	-
+#/usr/bin/dnsapi/dns_dgon.sh		f	755	0	0	-	-	-	-	-
