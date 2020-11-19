@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_VPN_PI_PATH/package/acmesh/Config.in"

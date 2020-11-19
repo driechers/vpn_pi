@@ -1,7 +1,7 @@
 # See package/makedevs/README for details
 #
 # <name>				<type>	<mode>	<uid>	<gid>	<major>	<minor>	<start>	<inc>	<count>
-/usr/bin/acme.sh			f	755	0	0	-	-	-	-	-
+#/usr/bin/acme.sh			f	755	0	0	-	-	-	-	-
 #/usr/bin/deploy/docker.sh		f	755	0	0	-	-	-	-	-
 #/usr/bin/deploy/kong.sh			f	755	0	0	-	-	-	-	-
 #/usr/bin/deploy/myapi.sh		f	755	0	0	-	-	-	-	-

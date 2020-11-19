@@ -10,7 +10,6 @@ BR2_TOOLCHAIN_BUILDROOT_CXX=y
 BR2_TARGET_GENERIC_HOSTNAME="vpn_pi"
 BR2_TARGET_GENERIC_ISSUE="Welcome to vpn_pi"
 BR2_TARGET_GENERIC_PASSWD_SHA512=y
-BR2_ROOTFS_DEVICE_TABLE="system/device_table.txt $(BR2_EXTERNAL_VPN_PI_PATH)/board/raspberrypi4_vpn/local_skeleton_permissions_raspberrypi4_vpn.txt"
 BR2_SYSTEM_DHCP="eth0"
 BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL_VPN_PI_PATH)/board/raspberrypi4_vpn/local_skeleton_raspberrypi4_vpn"
 BR2_ROOTFS_POST_BUILD_SCRIPT="board/raspberrypi4/post-build.sh"

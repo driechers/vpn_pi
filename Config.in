@@ -1,4 +1,4 @@
-#source "$BR2_EXTERNAL_BEAGLE_BUILD_PATH/package/package2/Config.in"
+source "$BR2_EXTERNAL_VPN_PI_PATH/package/Config.in"
 
 menu "PIkev2 Configuration"
 
@@ -13,6 +13,7 @@ config DNS_01
 	help
 		Use acme.sh to do a dns challenge using txt records
 		Best uption if using dynamic dns provided by DYNU
+	select BR2_PACKAGE_ACMESH
 
 config HTTP_01
 	bool "HTTP-01"

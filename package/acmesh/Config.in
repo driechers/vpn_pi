@@ -1,0 +1,12 @@
+config BR2_PACKAGE_ACMESH
+	bool
+	help
+		An ACME protocol client written purely in Shell (Unix shell) language.
+	select BR2_PACKAGE_BUSYBOX_SHOW_OTHERS
+	select BR2_PACKAGE_BASH
+	select BR2_PACKAGE_WGET
+	select BR2_PACKAGE_LIBOPENSSL_BIN
+	select BR2_PACKAGE_LIBIDN
+	select BR2_PACKAGE_LIBIDN_BINARY
+	select BR2_PACKAGE_SOCAT
+	select BR2_PACKAGE_CA_CERTIFICATES
