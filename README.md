@@ -12,7 +12,8 @@ Features
 + (Complete) DDNS TXT Challenge Certificate Enrollment
 + (Pending) Automatic Certificate Enrollment
 + (Pending) Automatic DDNS Updates
-+ (Pending) NTP Setup
++ (Complete) NTP Setup
++ (Pending) NTP Configurability
 + (Pending) Pruned Cipher Suites
 + (Pending) Multi Factor support
 + (Complete) Buildroot LTS package revisions for minimal CVE exposure

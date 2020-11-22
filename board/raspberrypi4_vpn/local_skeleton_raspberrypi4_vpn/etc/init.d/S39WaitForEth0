@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# Wait for network devices to come up
+#
+
+case "$1" in
+  start)
+        ifconfig eth0 up
+        while ! [ "$(cat /sys/class/net/eth0/operstate)" = "up" ] 
+        do
+                echo  "waiting for eth0 to be up"
+                sleep 2
+        done
+        ;;
+  stop)
+        ;;
+  restart|reload)
+        "$0" stop
+        "$0" start
+        ;;
+  *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+esac
+
+exit $?
+
+
