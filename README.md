@@ -5,10 +5,10 @@ VPN PI is an IKEv2 VPN solution for the raspberry PI 4 that tries to be secure, 
 Features
 ------------------------------------------------------
 + (Complete) Compatible with MacOS native VPN client
++ (Complete) Compatible with iOS native VPN client
 + (Pending) Compatible with Windows native VPN client
-+ (Complete) EAP-PSK support
++ (Complete) EAP-MSCHAPV2 support
 + (Pending) EAP-TLS support
-+ (Pending) Configuration File
 + (Complete) DDNS TXT Challenge Certificate Enrollment
 + (Pending) Automatic Certificate Enrollment
 + (Pending) Automatic DDNS Updates

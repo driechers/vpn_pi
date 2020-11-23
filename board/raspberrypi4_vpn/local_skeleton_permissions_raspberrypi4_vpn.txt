@@ -1,5 +1,7 @@
 # See package/makedevs/README for details
 #
 # <name>				<type>	<mode>	<uid>	<gid>	<major>	<minor>	<start>	<inc>	<count>
+/etc/init.d/S30iptables			f	755	0	0	-	-	-	-	-
 /etc/init.d/S39WaitForEth0		f	755	0	0	-	-	-	-	-
 /etc/init.d/S41ntpdate			f	755	0	0	-	-	-	-	-
+/etc/init.d/S50ipsec			f	755	0	0	-	-	-	-	-

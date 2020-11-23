@@ -2,6 +2,12 @@ source "$BR2_EXTERNAL_VPN_PI_PATH/package/Config.in"
 
 menu "PIkev2 Configuration"
 
+config PIKEV2_DOMAIN_NAME
+	string "VPN Domain Name"
+	default ""
+	help
+		Domain name used for the VPN
+
 choice
 	prompt "Letsencrypt Challenge Type"
 	default DNS_01
@@ -25,15 +31,16 @@ endchoice
 
 choice
 	prompt "VPN Authentication"
-	default EAP_PSK
+	default EAP_MSCHAPV2
 	help
 	  Select how to authenticate with the VPN
 
-config EAP_PSK
-	bool "EAP-PSK"
+config EAP_MSCHAPV2
+	bool "EAP-MSCHAPV2"
 	help
-		EAP-PSK authenticaiton uses preshared keys set by a text file
+		Authenticaiton using preshared user and pass set by a text file
 		This is the simplest form but is prone to week passwords
+	select BR2_PACKAGE_EAP_MSCHAPV2_CONFIGS
 
 config EAP_TLS
 	bool "EAP-TLS"
@@ -43,5 +50,22 @@ config EAP_TLS
 		but requires maintenance of PKI.
 
 endchoice
+
+if BR2_PACKAGE_EAP_MSCHAPV2_CONFIGS
+	config PIKEV2_USER1
+		string "username 1"
+	config PIKEV2_PASS1
+		string "password 1"
+
+	config PIKEV2_USER2
+		string "username 2"
+	config PIKEV2_PASS2
+		string "password 2"
+
+	config PIKEV2_USER3
+		string "username 3"
+	config PIKEV2_PASS3
+		string "password 3"
+endif
 
 endmenu
