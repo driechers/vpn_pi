@@ -1,2 +1,3 @@
 board/raspberrypi4_vpn/local_skeleton_raspberrypi4_vpn/etc/vpn_certs
+board/raspberrypi4_vpn/local_skeleton_raspberrypi4_vpn/etc/ipsec.d/certs
 board/raspberrypi4_vpn/local_skeleton_raspberrypi4_vpn/etc/ipsec.d/private
