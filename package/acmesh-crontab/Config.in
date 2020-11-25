@@ -1,0 +1,4 @@
+config BR2_PACKAGE_ACMESH_CRONTAB
+	bool
+	help
+		Setup the crontab for automatic reenrollment of certificates using acme.sh
