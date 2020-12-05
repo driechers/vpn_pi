@@ -6,3 +6,5 @@
 /etc/init.d/S41ntpdate			f	755	0	0	-	-	-	-	-
 /etc/init.d/S50ipsec			f	755	0	0	-	-	-	-	-
 /etc/init.d/S55cron			f	755	0	0	-	-	-	-	-
+/usr/sbin/ether-wake			f	4755	0	0	-	-	-	-	-
+/var/www/cgi-bin/wake.sh		f	755	33	33	-	-	-	-	-
