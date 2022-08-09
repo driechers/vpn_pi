@@ -1,4 +1,4 @@
-# VPN PI - Secure VPN solution for Raspberry PI 4
+# VPN PI - Toy VPN solution for Raspberry PI 4
 
 VPN PI is an IKEv2 VPN solution for the raspberry PI 4 that tries to be secure, dynamic and usable.
 
